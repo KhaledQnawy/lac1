@@ -1,0 +1,87 @@
+body{ 
+    background-color:burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    color: #850d0d;
+}
+
+main{
+     width:1250px;
+     height: 2400px;
+     background-color: aliceblue;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     border-radius: 40px;
+}
+header{
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+img {
+    width: 1180px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3), -4px -4px 8px rgba(255, 255, 255, 0.1);
+    transform: perspective(1000px) rotateX(3deg) rotateY(0deg);
+    transition: transform 1s ease, box-shadow 1s ease;
+}
+img:hover {
+    transform: perspective(1000px) rotateX(0deg) rotateY(3deg);
+    box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.4), -6px -6px 10px rgba(255, 255, 255, 0.2);
+}
+h1{
+    font-size: 500%;
+}
+p{
+    font-size: 200%;
+}
+section{
+    width: 1180px;
+    height: 1540px;
+    margin-left: 35px;
+}
+#below{
+    height: 200px;
+    background-color: rgba(168, 36, 124, 0.274);
+    border-radius: 5px;
+    margin-top: -5px;
+    padding-top: 5px;
+}
+h3{
+    font-size: 170%;
+    margin-left: 15px;
+    color: #ad095b;
+
+}
+#lf{
+    margin-left: 15px;
+    font-size: 150%;
+    line-height: 1.5;
+}
+ h2{
+    font-size: 250%;
+    line-height: 0.8;
+ }
+
+ ul{
+    font-size: 150%;
+    line-height: 1.6;
+ }
+ ol{
+    font-size: 150%;
+    line-height: 1.6;
+ }
+    
+ table{
+    width: 100%;
+    font-size: 220%;
+    line-height: 2;
+    border-collapse: collapse;
+ }
+td{
+    border-bottom: 1px solid #d8d0d0;
+}
